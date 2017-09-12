@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class StudentGroup implements StudentArrayOperation {
 
-	private Student[] student;
+	private Student[] students;
 	
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
@@ -98,7 +98,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
-		return student;
+		return students;
 	}
 
 	@Override
@@ -133,7 +133,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student getNextStudent(Student student) {
-		//Add your implementation here
+		// Add your implementation here
 		return students;
 	}
 }

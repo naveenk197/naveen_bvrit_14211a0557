@@ -98,7 +98,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
-		return students;
+		return student;
 	}
 
 	@Override
@@ -133,7 +133,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student getNextStudent(Student student) {
-		// Add your implementation here
+		//Add your implementation here
 		return students;
 	}
 }
